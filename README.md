@@ -1,12 +1,12 @@
-# Functions for Array methods
+# Functions for Array methods (Second part)
 
 Crea un modulo con funciones que repliquen los siguientes métodos de array,
 sin utilizar ninguno de los métodos o propiedades ya existentes en el prototipo, :
 
-- length,
-- push,
+- length, ==> Done
+- push, ==> Done
 - pop (puede usar length),
-- unshift,
+- unshift, ==> Done
 - shift (puede usar length),
 - some,
 - every,
