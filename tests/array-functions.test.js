@@ -104,4 +104,16 @@ describe('Given the unshift function', () => {
 			expect(result).toBe(expected);
 		});
 	});
+
+	describe('When the argument is [1, 2, 3], 4, 5, 6', () => {
+		test('The result should be 6', () => {
+			const n = [1, 2, 3];
+			const y = [4, 5, 6];
+			const expected = 6;
+
+			const result = arrayUnshift(n, y);
+
+			expect(result).toBe(expected);
+		});
+	});
 });
